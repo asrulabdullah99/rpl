@@ -4,70 +4,31 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="" />
-    <meta
-      name="author"
-      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
-    />
-    <meta name="generator" content="Hugo 0.88.1" />
-    <title>Rekayasa Perangkat Lunak</title>
 
-    <link
-      rel="canonical"
-      href="https://getbootstrap.com/docs/5.1/examples/offcanvas-navbar/"
-    />
-    <!-- Bootstrap core CSS -->
+    <!-- Tittle -->
+    <title>Rekayasa Perangkat Lunak - Lecture Notes</title>
+
+    <!-- bootstrap -->
     <link
       href="bootstrap/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
-      crossorigin="anonymous"
+      type="text/css"
     />
 
-    <!-- Favicons -->
-    <link
-      rel="apple-touch-icon"
-      href="/docs/5.1/assets/img/favicons/apple-touch-icon.png"
-      sizes="180x180"
-    />
-    <link
-      rel="icon"
-      href="/docs/5.1/assets/img/favicons/favicon-32x32.png"
-      sizes="32x32"
-      type="image/png"
-    />
-    <link
-      rel="icon"
-      href="/docs/5.1/assets/img/favicons/favicon-16x16.png"
-      sizes="16x16"
-      type="image/png"
-    />
-    <link rel="manifest" href="/docs/5.1/assets/img/favicons/manifest.json" />
-    <link
-      rel="mask-icon"
-      href="/docs/5.1/assets/img/favicons/safari-pinned-tab.svg"
-      color="#7952b3"
-    />
-    <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon.ico" />
-    <meta name="theme-color" content="#7952b3" />
+    <!-- Favicon -->
+    <link rel="icon" href="images/ump.png" />
 
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
+    <!-- google fonts poppins -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="fontawesome/css/all.css" />
 
-    <!-- Custom styles for this template -->
-    <link href="offcanvas.css" rel="stylesheet" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="style/style.css" />
   </head>
 
   <body class="bg-light">
@@ -93,14 +54,14 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a
-                class="nav-link active"
+                class="nav-link"
                 aria-current="page"
                 href="https://asrulabdullah99.github.io/"
                 >Beranda</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/data_mining">Data Mining</a>
+              <a class="nav-link active" href="/data_mining">Data Mining</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/jarkom_lanjut">Jarkom Lanjut</a>
@@ -137,73 +98,118 @@
       >
         <img class="me-3" src="images/ump.png" alt="" width="48" height="48" />
         <div class="lh-1">
-          <h1 class="h6 mb-0 text-white lh-1">Rekayasa Perangkat Lunak</h1>
+          <h1 class="h5 mb-2 text-white lh-1">Rekayasa Perangkat Lunak</h1>
           <small>3 SKS 21IF522028</small>
         </div>
       </div>
 
-      <div class="my-3 p-3 bg-body rounded shadow-sm">
-        <h6 class="border-bottom pb-2 mb-0">
-          Mata Kuliah Rekayasa Perangkat Lunak
-        </h6>
-        <table class="table table-striped">
-          <tr>
-            <td>No</td>
-            <td>Pertemuan</td>
-            <td>Materi</td>
-            <td>Material</td>
-            <td>Link</td>
-          </tr>
-          <tr>
-            <td>1</td>
-            <td>Week 1</td>
-            <td>Kontrak Kuliah dan Pengantar Rekayasa Perangkat Lunak</td>
-            <td>
-              <ul>
-                <li><a href href="#" title="Mohon menunggu!">RPS</a></li>
-                <li><a href="#" title="Mohon menunggu!">Kontrak Kuliah</a></li>
-                <li>
+      <div class="card shadow rounded-3">
+        <div class="card-header py-3 h6">Mata Kuliah Rekayasa Perangkat Lunak</div>
+        <div class="card-body">
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <tr>
+                <th>No</th>
+                <th>Pertemuan</th>
+                <th>Materi</th>
+                <th>Material</th>
+                <th>Link</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Week 1</td>
+                <td>RPS, Kontrak Kuliah dan Pengantar RPL</td>
+                <td>
+                  <div class="dropdown">
+                    <a
+                      class="btn btn-secondary dropdown-toggle"
+                      href="#"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="true"
+                    >
+                      Lihat
+                    </a>
+
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="dropdownMenuLink"
+                    >
+                      <li>
+                        <a class="dropdown-item" target="_blank" href="#"
+                          >RPS</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" target="_blank" href="#"
+                          >Kontrak Kuliah</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          target="_blank"
+                          href="https://docs.google.com/presentation/d/1Anwuzc4xAXKCHBffRzB7Ml2xoCOVgLxq/edit?usp=sharing&ouid=113804619739176014407&rtpof=true&sd=true"
+                          >Slide</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </td>
+                <td>
                   <a
-                    href="https://docs.google.com/presentation/d/1N2eAmWDEf9-wV2eNZMZnTgatbzQcpc4-/edit?usp=sharing&ouid=113804619739176014407&rtpof=true&sd=true"
+                    href="https://meet.google.com/awf-auun-hhh"
                     target="_blank"
-                    >Pengantar RPL</a
+                    class="btn btn-info text-white text-nowrap"
+                    ><i class="fas fa-video"></i> Google Meet</a
                   >
-                </li>
-              </ul>
-            </td>
-            <td>
-              <a href="https://meet.google.com/awf-auun-hhh" target="_blank"
-                ><img src="images/gmeet.png" alt="" width="32" height="32"
-              /></a>
-            </td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>Week 2</td>
-            <td>Software Process / Proses Software</td>
-            <td>
-              <ul>
-                <li>
-                  <a href="https://forms.gle/SSkjmBzX9ZovXjV99" target="_blank"
-                    >Tugas / Homework</a
-                  >
-                </li>
-                <li>
+                </td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Week 2</td>
+                <td>Software Process</td>
+                <td>
+                  <div class="dropdown">
+                    <a
+                      class="btn btn-secondary dropdown-toggle"
+                      href="#"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="true"
+                    >
+                      Lihat
+                    </a>
+
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="dropdownMenuLink"
+                    >
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          target="_blank"
+                          href="https://docs.google.com/presentation/d/1X8cq1DuPhFCUKVU-EiwRnLbqtu7TJ3PV/edit?usp=sharing&ouid=113804619739176014407&rtpof=true&sd=true"
+                          >Slide</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </td>
+                <td>
                   <a
-                    href="https://docs.google.com/presentation/d/1X8cq1DuPhFCUKVU-EiwRnLbqtu7TJ3PV/edit?usp=sharing&ouid=113804619739176014407&rtpof=true&sd=true"
+                    href="https://meet.google.com/awf-auun-hhh"
                     target="_blank"
-                    >Software Processes</a
+                    class="btn btn-info text-white text-nowrap"
+                    ><i class="fas fa-video"></i> Google Meet</a
                   >
-                </li>
-              </ul>
-            </td>
-            <td>
-              <a href="https://meet.google.com/awf-auun-hhh" target="_blank"
-                ><img src="images/gmeet.png" alt="" width="32" height="32"
-              /></a>
-            </td>
-          </tr>
-        </table>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
       </div>
     </main>
 
